@@ -1,7 +1,7 @@
 <script>
   function onClickButton() {
     console.log("BUTTON CLICKED...");
-    window.postMessage("refreshLink");
+    window.parent.postMessage("refreshLink");
   }
 </script>
 
